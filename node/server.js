@@ -291,7 +291,7 @@ async function addNewCommitPatchEntry(ex) {
     description: ex.description || "",
     date: new Date(ex.date).toISOString(),
     duration: Number(ex.duration) || 0,
-    status: ex.status || "Done",
+    status: ex.status || "DONE",
     author: ex.author || "?",
     patch: true
   };
